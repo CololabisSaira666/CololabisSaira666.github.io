@@ -1,0 +1,319 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>OO总结 | CololabisSaira的摸鱼处</title><meta name="author" content="CololabisSaira"><meta name="copyright" content="CololabisSaira"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="这是本人的2024年OO课程总结，我是北航6系的一个普通学生，编码水平一般，仅以普通生身份评价OO课程。 首先，2023年春我第一次选OO，由于本人此前未选过OOpre，且无Java编程经验，首次作业完全不会做。不是很愿意回忆第一次上课的情景，总之就是非常差劲。 本学期的OO，我究竟学到了什么？我也不知道，或许还不如多去练习算法与面试题。也罢，都过去了。 第一单元需求分析第一单元主任务：单变量多项">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OO总结">
+<meta property="og:url" content="https://cololabissaira666.github.io/post/5ecef886.html">
+<meta property="og:site_name" content="CololabisSaira的摸鱼处">
+<meta property="og:description" content="这是本人的2024年OO课程总结，我是北航6系的一个普通学生，编码水平一般，仅以普通生身份评价OO课程。 首先，2023年春我第一次选OO，由于本人此前未选过OOpre，且无Java编程经验，首次作业完全不会做。不是很愿意回忆第一次上课的情景，总之就是非常差劲。 本学期的OO，我究竟学到了什么？我也不知道，或许还不如多去练习算法与面试题。也罢，都过去了。 第一单元需求分析第一单元主任务：单变量多项">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202402020253.jpg">
+<meta property="article:published_time" content="2024-06-14T15:13:35.000Z">
+<meta property="article:modified_time" content="2024-08-11T13:03:45.797Z">
+<meta property="article:author" content="CololabisSaira">
+<meta property="article:tag" content="面向对象">
+<meta property="article:tag" content="课程收获">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202402020253.jpg"><link rel="shortcut icon" href="/img/xiao.png"><link rel="canonical" href="https://cololabissaira666.github.io/post/5ecef886.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":100,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'OO总结',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-08-11 21:03:45'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/w0w.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202402020253.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="CololabisSaira的摸鱼处"><span class="site-name">CololabisSaira的摸鱼处</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">OO总结</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-06-14T15:13:35.000Z" title="发表于 2024-06-14 23:13:35">2024-06-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-08-11T13:03:45.797Z" title="更新于 2024-08-11 21:03:45">2024-08-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Java/">Java</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">5.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="OO总结"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>这是本人的2024年OO课程总结，我是北航6系的一个普通学生，编码水平一般，仅以普通生身份评价OO课程。</p>
+<p>首先，2023年春我第一次选OO，由于本人此前未选过OOpre，且无Java编程经验，首次作业完全不会做。不是很愿意回忆第一次上课的情景，总之就是非常差劲。</p>
+<p>本学期的OO，我究竟学到了什么？我也不知道，或许还不如多去练习算法与面试题。也罢，都过去了。</p>
+<h1 id="第一单元"><a href="#第一单元" class="headerlink" title="第一单元"></a>第一单元</h1><h2 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h2><p>第一单元主任务：单变量多项式的括号展开。</p>
+<p>在hw1中，仅需将一个包含+、-、*、^以及括号（单层）的单变量表达式，输出展开所有括号的结果。</p>
+<p>hw2新增了多层括号，自定义函数因子和指数函数因子。</p>
+<p>hw3新增求导算子。</p>
+<h2 id="代码架构"><a href="#代码架构" class="headerlink" title="代码架构"></a>代码架构</h2><h3 id="hw1"><a href="#hw1" class="headerlink" title="hw1"></a>hw1</h3><p>采用了递归下降法。一个表达式可以拆分成若干项（由+、-符号连接），因子可以分为表达式因子，数字和幂函数。在完全化简后，表达式由若干以下项构成。</p>
+<script type="math/tex; mode=display">
+c*x^n</script><p>我的主要思路是，先解析表达式，再利用基本项的性质运算，最后输出。</p>
+<p>Factor接口下的类是递归下降方法的核心。Power类存储形如$c*x^n$的项，Poly类负责运算工作。</p>
+<p>Poly类的基本复杂度较高，大概是因为我将全部的运算，以及部分输出表达式工作写在了Poly里。</p>
+<h3 id="hw2"><a href="#hw2" class="headerlink" title="hw2"></a>hw2</h3><p>在第一次作业的基础上，新增了自定义函数类。对于输入表达式中的的自定义函数，采取带入实参替换的方式预处理。修改Power类的定义，用hashmap存储exp。修改Poly类，新增有关exp的运算。</p>
+<p>需要注意，在替换时处理exp与x的关系，以及先将形参替换成其他字母，再替换实参。复杂度问题与hw1类似。</p>
+<h3 id="hw3"><a href="#hw3" class="headerlink" title="hw3"></a>hw3</h3><p>新增求导算子。这部分需要注意的问题是：dx可以多次出现，以及正确使用链式法则。我最大的问题是，把求导方法也写进了power类里，而没有采用类似第二次上机的架构，即递归实现求导功能。类复杂度图也能反映出这个问题。</p>
+<h2 id="bug们"><a href="#bug们" class="headerlink" title="bug们"></a>bug们</h2><p>三次作业在强测和互测中均没有出现bug。</p>
+<p>自己测出来/跑评测机发现的bug如下：</p>
+<ul>
+<li><p>hw1：因为没有仔细分析形式化表述，未考虑形如$x^{+1}$的情况。</p>
+</li>
+<li><p>hw2：在输出exp时是否要格外加括号的判定问题。</p>
+</li>
+<li><p>hw3：一开始没有注意到，dx可以多次出现。</p>
+</li>
+</ul>
+<p>互测：</p>
+<ul>
+<li><p>hw1：同房的一位同学在处理输出结果时的bug，如果末位项为1，会无法输出1。</p>
+</li>
+<li><p>hw2与hw3：没有hack到。</p>
+</li>
+</ul>
+<h2 id="不存在的优化"><a href="#不存在的优化" class="headerlink" title="不存在的优化"></a>不存在的优化</h2><p><strong>hw1：</strong>需要优化的部分是，尽量不让首项为负。如x-1优于-1+x。</p>
+<p><strong>hw2：</strong>比较容易想到和实现的是，输出exp时判断是否需要格外加括号。比较复杂的是指数函数的优化。看了评论区的优化方法，但因为能力有限，且考虑到可能的bug，选择正确性优先。这也导致后两次作业性能分惨淡。</p>
+<p><strong>hw3：</strong>未考虑。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>第一单元有惊无险结束，非常感谢助教、开发评测机的同学、以及hw2与我交流相同测试点问题的同学们。希望我在下一单元的多线程学习中有更多收获。</p>
+<h1 id="第二单元"><a href="#第二单元" class="headerlink" title="第二单元"></a>第二单元</h1><h2 id="需求分析-1"><a href="#需求分析-1" class="headerlink" title="需求分析"></a>需求分析</h2><p><strong>第二单元主任务：模拟多线程实时电梯系统。</strong></p>
+<p>hw1：楼座内有6部电梯，接收乘客请求，并合理调度将其送到目的地。请求中包括乘客期待进入的电梯，电梯需要实时反馈运行情况（移动、开关门、乘客进出）。</p>
+<p>hw2：新增电梯重置请求，电梯重置时可以改变最大容量和移动时间；乘客请求中不再添加电梯id，由调度器分配；电梯移动接乘客前需发receive指令，否则视为非法移动。</p>
+<p>hw3：新增电梯重置为双轿厢请求，双轿厢电梯可以设置换成层。</p>
+<h2 id="代码架构-1"><a href="#代码架构-1" class="headerlink" title="代码架构"></a>代码架构</h2><p>三次作业中，我创建多线程的方法均为：声明一个Thread类的子类，在子类中重写Thread类的run方法。</p>
+<p>均使用了synchronized关键字修饰方法，未使用其他类型的锁。</p>
+<h3 id="hw1-1"><a href="#hw1-1" class="headerlink" title="hw1"></a>hw1</h3><p>分析题目后，我设计的电梯系统运行逻辑如下：每部电梯有一个等候队列和轿厢内队列。等候队列存储”期望上这部电梯，但还没乘上“的乘客请求，轿厢内队列存储”已在轿厢内“的乘客需求。初始时刻，电梯停在一层，默认移动方向向上，若等候队列暂时没有乘客请求，且电梯内也没有乘客，该线程会wait，直到有新请求时被唤醒。若电梯在移动中，在每一层会检测乘客状态，检测是否有乘客需要进出电梯，若有，则当前层开门，若无，则继续前往下一层。电梯若有开门动作，先检测电梯内是否有乘客离开，若电梯还有空位，会依次让本层的等待乘客上电梯。电梯在到达最底层或最高层后，改变运行方向；或电梯沿当前运行方向无法到达等候乘客所在层，且电梯内无乘客，也会改变运行方向。</p>
+<p>在讨论中，有同学提到了如下场景：电梯在某层接到乘客，在乘客关门后，电梯开始前往下一楼层时，突然该层到达了大量请求，电梯是否需要折返接人（以争取更短的总运行时间）。根据实际生活经验，电梯应该继续沿原路线运行，不能为了优化（一些情况下有可能用时更短）而放弃更符合认知逻辑的调度策略是不正确的。</p>
+<p>电梯的等待队列，即Request中用到了锁，调度器向电梯分配请求，以及电梯查看请求过程中涉及线程交互。</p>
+<p>Elevator类的基本复杂度较高，大概是因为我将电梯的运行控制（方向、开关门等）写在了一起。</p>
+<h3 id="hw2-1"><a href="#hw2-1" class="headerlink" title="hw2"></a>hw2</h3><p>在第一次作业的基础上，新增电梯重置请求，电梯重置时可以改变最大容量和移动时间；乘客请求中不再添加电梯id，由调度器分配；电梯移动接乘客前需发receive指令，否则视为非法移动。程序的基本架构未改变。</p>
+<p>需要注意，本次乘客不指定乘坐某部电梯。经过思考与尝试，我认为新的调度器有两种解决方法：1.输入请求，查看6部电梯哪一部能最快接到该乘客（通过乘客所在楼层，6部电梯是否满载、楼层与运行方向确定），优点是在乘客依次到来时，能够尽量减少每位乘客的等待时间，但需要合理化调度策略，避免出错（如乘客数较多时，一些乘客可能无法被接上）。2.随机策略，通过随机生成电梯id的方法为乘客选择搭乘电梯，优点为，当大批乘客迅速到来时，随机分配时可能会拥有更好的性能，缺点为乘客请求数较少时，随即策略可能会导致一台电梯频繁工作。</p>
+<p>电梯重置时，要锁住等待队列，使其无法被加入新请求。</p>
+<p>同样的，Elevator类的基本复杂度较高。</p>
+<h3 id="hw3-1"><a href="#hw3-1" class="headerlink" title="hw3"></a>hw3</h3><p>双轿厢调度问题。在本次作业中，我采取了一个电梯分裂为两个电梯的策略，而非在程序开始时设置12个电梯线程，按需获取。本方法的优点是方便debug，缺点是牺牲了性能，策略非最优。</p>
+<h2 id="bug们-1"><a href="#bug们-1" class="headerlink" title="bug们"></a>bug们</h2><h3 id="hw1-2"><a href="#hw1-2" class="headerlink" title="hw1"></a>hw1</h3><p>注意边界条件判定，电梯一开始会前往0或12层。</p>
+<h3 id="hw2-2"><a href="#hw2-2" class="headerlink" title="hw2"></a>hw2</h3><p>在大量乘客在同一时间到来时，可能出现乘客进入电梯后才receive的情况（不太容易复现）。</p>
+<h3 id="hw3-2"><a href="#hw3-2" class="headerlink" title="hw3"></a>hw3</h3><p>A、B轿厢在换乘楼层相撞。解决方法为，双轿厢电梯都不会在换乘层停留，在换层接到或放下乘客后会立刻离开。</p>
+<p>电梯被重置为双轿厢后，未开始重置，却发出receive-A/B的指令。检查后发现，此时电梯等待队列未锁住，还可以添加请求。</p>
+<h2 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h2><p><strong>线程安全：</strong>共享。本次作业中，涉及线程安全的部分为请求。调度器需要拿取请求分配给合适的线程，调度器的某些行为也要依靠线程反馈，关键是处理好他们的共享变量。保证线程安全的方法是使用synchronized（自动锁，锁的创建和释放都是自动的）、或者使用锁（lock，手动指定锁的创建和释放），或者用volatile关键字。本单元中只使用了第一种，在使用过程中要注意范围，避免不必要的性能消耗。</p>
+<p><strong>层次化设计：</strong>Elevator类仅处理电梯运行逻辑，不要夹杂调度模块。应该分为接收请求、分配请求、执行请求三个部分，使代码有较高的可读性和逻辑性。可采用生产者-消费者模式。</p>
+<p>其他：第二单元结束，我和我愚蠢的电梯顺利通过三次强测。虽说三次强测都没有bug，勉强通过，但我明白，这是架构与程序可读性换来的，写最后一次作业时，我在迭代时能明显感觉到代码可读性变差。我还需要提升代码能力，在完成任务的基础上写出更好的代码。第三单元，预启动。</p>
+<h1 id="第三单元"><a href="#第三单元" class="headerlink" title="第三单元"></a>第三单元</h1><h2 id="测试过程"><a href="#测试过程" class="headerlink" title="测试过程"></a>测试过程</h2><p><strong>黑箱测试：</strong>也称功能测试，通过测试来检测每个功能是否都能正常使用。 在测试中，在完全不考虑程序内部结构和内部特性的情况下，在程序接口处进行测试。黑箱测试只检查程序功能是否符合需求规格说明书。</p>
+<p><strong>白箱测试：</strong>又称为结构测试或逻辑驱动测试，它是把测试对象看成一个透明的盒子。测试人员需要利用程序内部的逻辑结构设计测试用例，对程序所有逻辑路径进行测试。白箱测试分为：静态测试方法、动态测试方法。</p>
+<p><strong>单元测试：</strong>对软件中的最小可测试部分，如单个函数或方法进行验证和测试。每个测试只关注一个特定的单元，不依赖于系统其他部分的状态。</p>
+<p><strong>功能测试：</strong>验证软件应用或系统的功能是否符合需求规格说明书或用户需求。功能测试的目的是：确保软件的每个功能都正常工作，并且满足用户的需求。测试人员会从用户的角度出发，模拟用户操作来验证软件的每个功能。</p>
+<p><strong>集成测试：</strong>发生在单元测试之后，目的是检查软件组件或模块在合并后作为一个整体时是否能够正常工作。集成测试确保各个组件之间的接口和交互能够按预期工作，并且整个系统作为一个协调一致的单元运行。</p>
+<p><strong>压力测试：</strong>评估软件在高负载或极端条件下的性能表现。目的是识别软件在极限工作条件下的瓶颈、稳定性问题以及可能的失败点。压力测试有助于提高软件的可靠性和用户满意度。</p>
+<p><strong>回归测试：</strong>验证软件在经过修改、更新或维护后，原有功能仍然按照预期工作，并且新引入的更改没有引入新的错误。回归测试是确保软件质量的重要环节。</p>
+<p><strong>数据构造策略：</strong></p>
+<ul>
+<li>手动构造：根据每个方法的JML规格，构造指令数较少但覆盖全面的测试数据，在构造时也需要构造边界数据。例如，作业说明书中要求<code>−1000≤social*_*value≤1000</code>，方法的JML中限制了正常情况下<code>tag.size()</code>的范围。手动构造的数据可以确保触发方法的每个分支（正常与异常情况），实现白箱测试。</li>
+<li>随机生成：可以借助Random类生成随机数据，或使用DPO评测机。</li>
+</ul>
+<p>上述两种数据构造策略需同时采用，才能达到更好的测试效果。</p>
+<h2 id="架构设计"><a href="#架构设计" class="headerlink" title="架构设计"></a>架构设计</h2><p>本单元作业通过JML定义社交网络的基本功能规格，我们需要阅读JML，分析此社交网络，编写代码对其中的用户和他们之间的关系进行管理。我们需要在实现基础功能的前提下，利用不同的数据结构与算法对架构进行优化。</p>
+<p><strong>hw9</strong></p>
+<p>例如，本次作业中社交网络可以抽象为图论问题，在查找连通块时，可以通过维护并查集提高效率（需要在官方方法的基础上，设计辅助方法完成并查集，后文的bfs等同理）。在数据结构方面，虽然JML均采取数组表述，实际代码为了提升运行效率，会采取hashmap维护数据。</p>
+<p><strong>hw10</strong></p>
+<ul>
+<li><p>在计算最短路径时，采取bfs算法提高效率。</p>
+</li>
+<li><p>getAgeMean()，ageSum在addPerson与delPerson时进行维护，提高效率。</p>
+</li>
+<li><p>getBestId()，bestId需要在新增、修改或删除Acquaintance进行维护。</p>
+</li>
+</ul>
+<p><strong>hw11</strong></p>
+<p>新增了Message等类，原有的Tag，Person与Network里的方法无变化，仅需要考虑新增的情况。</p>
+<h2 id="性能问题及其修复"><a href="#性能问题及其修复" class="headerlink" title="性能问题及其修复"></a>性能问题及其修复</h2><p>超时问题，即在数据量过多，或重复指令操作时，若完全按照JML规格进行实现，评测会出现超时。在设计时需要将必要数据缓存，调用相关方法时直接返回答案。</p>
+<p>这里写我的bug之一，如，queryTagValueSum指令时，若采取如下写法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (Integer id1 : persons.keySet()) &#123;</span><br><span class="line">    <span class="keyword">for</span> (Integer id2 : persons.keySet()) &#123;</span><br><span class="line">        res += persons.get(id1).queryValue(persons.get(id2));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> res;</span><br></pre></td></tr></table></figure>
+<p>符合JML，同时也符合超时。修改后发现，valueSum需要在Tag类里的addPerson、delPerson方法中维护，即将数据缓存。就算频繁调用queryTagValueSum指令，也不会超时。</p>
+<h2 id="Junit"><a href="#Junit" class="headerlink" title="Junit"></a>Junit</h2><p>需要根据规格设计测试，实现对规格的一致性检查。</p>
+<p>需要确保只修改<code>\assignable</code>允许修改的内容，每个<code>\ensure</code>均被测试。对于<code>pure</code>方法，需要保证对象中的所有成员均未被修改，在调用前后严格一致。</p>
+<h2 id="学习体会"><a href="#学习体会" class="headerlink" title="学习体会"></a>学习体会</h2><p>通过本单元的学习，我了解了JML与Junit，并通过作业进行简单实践。第三单元与前两单元不同，此前的模式大致为：阅读指导书、理解需求、自行设计方法，实现代码并测试。而本单元的JML则限制了“方法设计”与“代码测试”，其中代码测试（这里指基于Junit的单元测试）严格约束于规格信息。若这是多人合作项目，在拥有基于自然语言书写的需求规格书的基础上，开发者与测试者可以借助JML协同工作，借助形式化表述提供工作效率，避免随意定义类或方法导致的架构混乱，白箱测试设计滞后的情况。</p>
+<h1 id="第四单元"><a href="#第四单元" class="headerlink" title="第四单元"></a>第四单元</h1><h2 id="正向建模与开发"><a href="#正向建模与开发" class="headerlink" title="正向建模与开发"></a>正向建模与开发</h2><p>OO第4单元实现了一个简单的图书馆管理系统，使用正向建模与开发的方式实现。正向建模与开发，即先根据作业指导书（需求文档）构建UML图，再依据UML图进行代码编写，有助于进行大型项目分析与规划。</p>
+<h2 id="本单元作业"><a href="#本单元作业" class="headerlink" title="本单元作业"></a>本单元作业</h2><p>在本单元作业中，我们实现的图书馆管理系统需要具备下列功能：查询书籍数、查询学生信用分数、借书、还书、预约书籍。</p>
+<h3 id="架构设计-1"><a href="#架构设计-1" class="headerlink" title="架构设计"></a>架构设计</h3><p>以第一次作业为例，我设计了：</p>
+<ul>
+<li>Library：图书馆类，用于存储用户信息、在馆书籍信息。分配操作请求。</li>
+<li>Order：预约处，用于存储用户的预约信息，每次开馆时将可移动的在馆书籍移动到预约处。</li>
+<li>Borrow：借还处，用于处理借书与还书的请求</li>
+<li>Student：学生信息。</li>
+<li>OrderBook：基于基础Book类的OrderBook类，需要预约人信息，书号，预约日期等。</li>
+</ul>
+<p>在之后两次作业中，我基于第一次作业，又增加了书籍漂流处、操作信息登记处等类，实现方式与此前基本一致，无大规模重构。对于容易出错的书籍移动环节，我设定闭馆后需要将借还处书籍全部送回书架，开馆时再分配预约书籍。通过严格的流程降低出错概率。</p>
+<h3 id="代码与UML模型关系"><a href="#代码与UML模型关系" class="headerlink" title="代码与UML模型关系"></a>代码与UML模型关系</h3><p>在写代码与画UML图前，我会设计简单流程图，这有助于我理清指导书思路。如图，是针对第二次作业整理的流程图。</p>
+<h2 id="架构设计思维"><a href="#架构设计思维" class="headerlink" title="架构设计思维"></a>架构设计思维</h2><h3 id="第一单元-1"><a href="#第一单元-1" class="headerlink" title="第一单元"></a>第一单元</h3><p><strong>递归下降、OO入门：</strong>第一单元的重点任务是解析与计算表达式，熟悉Java语法，以及建立面向对象的思维。难点在于递归下降方法，以及第一作业的架构设计（如果做的好，后续不需要完全重构，会节约很多时间）。</p>
+<h3 id="第二单元-1"><a href="#第二单元-1" class="headerlink" title="第二单元"></a>第二单元</h3><p><strong>多线程：</strong>实现模拟新主楼电梯调度系统。难点在于多线程的调试，以及bug较难复现。评测机在这一单元十分重要。</p>
+<h3 id="第三单元-1"><a href="#第三单元-1" class="headerlink" title="第三单元"></a>第三单元</h3><p><strong>JML：</strong>本单元主要通过阅读JML，编写对应的函数。个人认为这一单元最困难，JML给我体验很不好。本人认为仅依靠JML书写规格不太现实，实际开发中，JML应该和自然语言的说明一同出现，辅助开发者进行程序设计。</p>
+<h3 id="第四单元-1"><a href="#第四单元-1" class="headerlink" title="第四单元"></a>第四单元</h3><p><strong>UML：</strong>实现一个图书馆管理系统，在作业中要用到正向建模的方法。先根据作业指导书构建UML图，再依据UML图进行代码编写。</p>
+<h3 id="未来"><a href="#未来" class="headerlink" title="未来"></a>未来</h3><p>依据个人浅薄的实习面试经历，第二单元中的多线程出现频率极高。在会用多线程锁的基础上，还需要阅读源码，能理解与讲清楚各种锁的区别。同时，各种细节问题也常被问到，如各类容器是如何实现的，源码有什么区别。JML相对来讲十分冷门，不会被问到；UML，我个人认为这是一种架构设计的思维，而非具体知识点，不会出现具体的问题。</p>
+<p>我认为在此后的学习中，我更应该关注原理问题，而不是如何尽快让代码跑起来。</p>
+<h2 id="测试思维"><a href="#测试思维" class="headerlink" title="测试思维"></a>测试思维</h2><p>第一、二单元主要借助了同学编写的评测机进行评测，同时手工编写了少量数据，用于开发过程中测试各单元功能。</p>
+<p>第三单元做的不是很好，既没有用评测机、也没有自己测试过。</p>
+<p>第四单元没有使用评测机，仅手工编写数据。因为第四单元作业逻辑较简单，且代码正确性也与自行设计的总流程有关，应该自行编写有逻辑的测试，而不是依靠评测机。</p>
+<h2 id="课程收获"><a href="#课程收获" class="headerlink" title="课程收获"></a>课程收获</h2><p>很开心，2024年的OO课程结束了，我也表现得比预想中好。其实我本来应在去年修这门课，但去年第一次作业没有交上，再加上其他原因，我认为自己无法良好完成课程，遂退课。今年再选课时，我的能力较去年也有了一定提升，学习效果也好了很多。非常感谢老师、助教、以及同学们的帮助，同时感谢面对困难没有放弃的自己。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://CololabisSaira666.github.io">CololabisSaira</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://cololabissaira666.github.io/post/5ecef886.html">https://cololabissaira666.github.io/post/5ecef886.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://CololabisSaira666.github.io" target="_blank">CololabisSaira的摸鱼处</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/">面向对象</a><a class="post-meta__tags" href="/tags/%E8%AF%BE%E7%A8%8B%E6%94%B6%E8%8E%B7/">课程收获</a></div><div class="post_share"><div class="social-share" data-image="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202402020253.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/post/da8c2e9e.html" title="Java Spring Boot"><img class="cover" src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202406271601.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Java Spring Boot</div></div></a></div><div class="next-post pull-right"><a href="/post/e66c3671.html" title="优雅地进行论文检索"><img class="cover" src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202306291556q.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">优雅地进行论文检索</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/post/e2b57d7f.html" title="Java-2-实现类后就要继承和重写"><img class="cover" src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202307151629zhai.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-07-10</div><div class="title">Java-2-实现类后就要继承和重写</div></div></a></div><div><a href="/post/9c53426d.html" title="Java-1-爪洼-实现类"><img class="cover" src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/lofter_1679044503548.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-07-02</div><div class="title">Java-1-爪洼-实现类</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/w0w.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CololabisSaira</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/CololabisSaira666"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CololabisSaira666" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:1204478701@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83"><span class="toc-number">1.</span> <span class="toc-text">第一单元</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90"><span class="toc-number">1.1.</span> <span class="toc-text">需求分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E6%9E%B6%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text">代码架构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#hw1"><span class="toc-number">1.2.1.</span> <span class="toc-text">hw1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hw2"><span class="toc-number">1.2.2.</span> <span class="toc-text">hw2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hw3"><span class="toc-number">1.2.3.</span> <span class="toc-text">hw3</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bug%E4%BB%AC"><span class="toc-number">1.3.</span> <span class="toc-text">bug们</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E4%BC%98%E5%8C%96"><span class="toc-number">1.4.</span> <span class="toc-text">不存在的优化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.5.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83"><span class="toc-number">2.</span> <span class="toc-text">第二单元</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90-1"><span class="toc-number">2.1.</span> <span class="toc-text">需求分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E6%9E%B6%E6%9E%84-1"><span class="toc-number">2.2.</span> <span class="toc-text">代码架构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#hw1-1"><span class="toc-number">2.2.1.</span> <span class="toc-text">hw1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hw2-1"><span class="toc-number">2.2.2.</span> <span class="toc-text">hw2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hw3-1"><span class="toc-number">2.2.3.</span> <span class="toc-text">hw3</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#bug%E4%BB%AC-1"><span class="toc-number">2.3.</span> <span class="toc-text">bug们</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#hw1-2"><span class="toc-number">2.3.1.</span> <span class="toc-text">hw1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hw2-2"><span class="toc-number">2.3.2.</span> <span class="toc-text">hw2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hw3-2"><span class="toc-number">2.3.3.</span> <span class="toc-text">hw3</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">2.4.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E5%8D%95%E5%85%83"><span class="toc-number">3.</span> <span class="toc-text">第三单元</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E8%BF%87%E7%A8%8B"><span class="toc-number">3.1.</span> <span class="toc-text">测试过程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1"><span class="toc-number">3.2.</span> <span class="toc-text">架构设计</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E5%8F%8A%E5%85%B6%E4%BF%AE%E5%A4%8D"><span class="toc-number">3.3.</span> <span class="toc-text">性能问题及其修复</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Junit"><span class="toc-number">3.4.</span> <span class="toc-text">Junit</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0%E4%BD%93%E4%BC%9A"><span class="toc-number">3.5.</span> <span class="toc-text">学习体会</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E5%8D%95%E5%85%83"><span class="toc-number">4.</span> <span class="toc-text">第四单元</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AD%A3%E5%90%91%E5%BB%BA%E6%A8%A1%E4%B8%8E%E5%BC%80%E5%8F%91"><span class="toc-number">4.1.</span> <span class="toc-text">正向建模与开发</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AC%E5%8D%95%E5%85%83%E4%BD%9C%E4%B8%9A"><span class="toc-number">4.2.</span> <span class="toc-text">本单元作业</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1-1"><span class="toc-number">4.2.1.</span> <span class="toc-text">架构设计</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E4%B8%8EUML%E6%A8%A1%E5%9E%8B%E5%85%B3%E7%B3%BB"><span class="toc-number">4.2.2.</span> <span class="toc-text">代码与UML模型关系</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%80%9D%E7%BB%B4"><span class="toc-number">4.3.</span> <span class="toc-text">架构设计思维</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83-1"><span class="toc-number">4.3.1.</span> <span class="toc-text">第一单元</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83-1"><span class="toc-number">4.3.2.</span> <span class="toc-text">第二单元</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E5%8D%95%E5%85%83-1"><span class="toc-number">4.3.3.</span> <span class="toc-text">第三单元</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E5%8D%95%E5%85%83-1"><span class="toc-number">4.3.4.</span> <span class="toc-text">第四单元</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AA%E6%9D%A5"><span class="toc-number">4.3.5.</span> <span class="toc-text">未来</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E6%80%9D%E7%BB%B4"><span class="toc-number">4.4.</span> <span class="toc-text">测试思维</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%BE%E7%A8%8B%E6%94%B6%E8%8E%B7"><span class="toc-number">4.5.</span> <span class="toc-text">课程收获</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/da8c2e9e.html" title="Java Spring Boot"><img src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202406271601.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Java Spring Boot"/></a><div class="content"><a class="title" href="/post/da8c2e9e.html" title="Java Spring Boot">Java Spring Boot</a><time datetime="2024-08-11T13:09:31.000Z" title="发表于 2024-08-11 21:09:31">2024-08-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/5ecef886.html" title="OO总结"><img src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202402020253.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="OO总结"/></a><div class="content"><a class="title" href="/post/5ecef886.html" title="OO总结">OO总结</a><time datetime="2024-06-14T15:13:35.000Z" title="发表于 2024-06-14 23:13:35">2024-06-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/e66c3671.html" title="优雅地进行论文检索"><img src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202306291556q.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="优雅地进行论文检索"/></a><div class="content"><a class="title" href="/post/e66c3671.html" title="优雅地进行论文检索">优雅地进行论文检索</a><time datetime="2024-01-21T13:46:03.000Z" title="发表于 2024-01-21 21:46:03">2024-01-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/69eb21f4.html" title="数据库-绪论"><img src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/lofter_1675500534616.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据库-绪论"/></a><div class="content"><a class="title" href="/post/69eb21f4.html" title="数据库-绪论">数据库-绪论</a><time datetime="2023-10-09T10:22:35.000Z" title="发表于 2023-10-09 18:22:35">2023-10-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/86af2470.html" title="判断表示数值的字符串"><img src="https://miaomiao-1-1319022947.cos.ap-beijing.myqcloud.com/202307102301.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="判断表示数值的字符串"/></a><div class="content"><a class="title" href="/post/86af2470.html" title="判断表示数值的字符串">判断表示数值的字符串</a><time datetime="2023-07-10T14:35:09.000Z" title="发表于 2023-07-10 22:35:09">2023-07-10</time></div></div></div></div></div></div></main><footer id="footer" style="background: #e9ebff"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By CololabisSaira</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
