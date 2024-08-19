@@ -3,7 +3,7 @@ title: about
 date: 2023-06-28 18:30:11
 ---
 
-关于俺，CololabisSaira，宅宅。
+关于俺，CololabisSaira，宅宅，喵。
 
 我的学习经历：
 
@@ -13,10 +13,6 @@ date: 2023-06-28 18:30:11
 
 - 图形学
 - 熬夜
-- 游戏（空洞骑士、蔚蓝、原神）
-- 花滑
-
-我的邮箱：
-
-- jingchu_wjc@buaa.edu.cn
+- 游戏
+- 画画
 
